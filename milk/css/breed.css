@@ -1,0 +1,22 @@
+.breed .breed-body .breed-in{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.breed-in .breed-img {
+width: 100%;
+}
+.breed-in .breedbg{
+  position: absolute;
+  left: 0;
+  width: 50%;
+  margin-left: 25%;
+}
+.breed-in p{
+  color:rgb(22, 132, 77);
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  margin-top:40px;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.about{
+  background-color: #fff;
+  padding-top: 30px;
+}
+.about .about-center{
+  margin-top: 20px;
+  width: 96%;
+  margin-left: 2%;
+  border: 1px solid rgb(38, 156, 82);
+  position: relative;
+}
+.about-body p{
+  margin-bottom: 20px;
+  font-size: 15px; 
+  color: rgb(150, 150, 150);
+}
+.about-body p img{
+  width: 98%;
+  margin-left:1%;
+}
+.about-body h5{
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom:15px;
+}
+.about-body .abbg{
+  opacity: 0.4;
+  position: absolute;
+  bottom: -40px;
+  left: 40px;
+}

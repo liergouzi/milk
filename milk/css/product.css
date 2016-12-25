@@ -1,0 +1,40 @@
+.product{
+  padding-top: 20px;
+  background-color: #fff;
+}
+.product-body {
+  margin-top:30px;
+}
+.product-body .product-in{
+  margin-top:15px;
+  border: 1px solid #ccc;
+  width: 96%;
+  margin-left: 2%;
+  position: relative;
+}
+.product-body .product-in:hover{
+  border: 1px solid red;
+}
+.product-body .product-in img{
+  width:90%;
+  margin-left:5%;
+  margin-top:20px;
+}
+.product-body .product-in h3{
+  text-align: center;
+}
+.product-body .product-in .pro-price{
+  text-align: center;
+}
+.product-body .product-in .pro-price span{
+  color: red;
+}
+.product-body .product-in p{
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #969696;
+  line-height: 20px;
+  text-indent: 10px;
+  width:90%;
+  margin-left:5%;
+}

@@ -1,0 +1,269 @@
+.milk{
+ width: 100%;
+ max-width: 640px;
+ min-width: 300px;
+ margin: 0 auto;
+ // height: 2200px;
+}
+.header{
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+}
+.header .header-left{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.header .header-left h1{
+  margin-left: 10px;
+  width:150px;
+  height: 55px;
+  font-size:14px;
+  font-weight: normal;
+  color:#189553;
+  border-bottom:2px solid #189553;
+}
+.header .header-left span{
+  position: absolute;
+  top: -5px;
+  height: 0;
+  font-size:40px;
+}
+.header .header-left p{
+  padding-top: 10px;
+  height: 20px;
+  line-height: 20px;
+  text-indent: 25px;
+}
+.header .header-right{
+  width: 100%;
+  height: 70px;
+  position: relative;
+}
+.header-right-img{
+  width: 100px;
+  height: 52px;
+  background: url('../images/headbutton.jpg') no-repeat;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.header .header-right span{
+ position: absolute;
+ width: 35px;
+ height: 35px;
+ background: url('../images/navbg.png') no-repeat;
+ background-size: 35px 35px;
+ right:25px;
+ top:20px;
+}
+.nav{
+  margin-top:70px;
+  position: absolute;
+  z-index:1;
+  width:100%;
+  display:none;
+}
+.nav li {
+  box-sizing: border-box;
+  padding-left: 20px;
+  margin-top:1px;
+  line-height: 50px;
+  width:100%;
+  height: 50px;
+  background-color: #008000;
+}
+
+.nav li:hover{
+  background-color: red;
+}
+.nav li a{
+  color:#fff;
+  display: block;
+}
+/*轮播图开始*/
+.banner{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.banner .img-box {
+  width: 500%;
+  transform: translataX(-20%);
+}
+.banner .img-box li {
+  float: left;
+  width: 20%;
+}
+.banner .img-box li img {
+  width: 100%;
+  display: block;
+}
+.banner .points {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translate(-50%);
+}
+.banner .points li {
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 6px;
+}
+/*热销产品开始*/
+.product{
+  margin-top: 10px;
+}
+.pro-title{
+  height: 50px;
+  line-height: 30px;
+}
+.title{
+  font-size:23px;
+  font-weight: 700;
+  color:#228A56;
+}
+.pro-title-left{
+  float: left;
+}
+.pro-title-right{
+  float: right;
+  margin-right: 50px;
+  position: relative;
+  color:#7CB265;
+  font-size:20px;
+}
+.pro-title-right span{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('../images/dans.gif') no-repeat;
+  background-size:30px 30px;
+}
+.pro-milk .pro-milk-left,.pro-milk .pro-milk-right{
+  width: 50%;
+  float: left;
+}
+.pro-milk img{
+  width: 80%;
+  margin-left:10%;
+}
+.pro-milk p{
+  text-align: center;
+  font-size:20px;
+  color:#7CB265;
+}
+/*公司简介开始*/
+.about{
+  margin-top:20px;
+}
+.about-body {
+  margin-top: 20px;
+  text-align: center;
+}
+.about-body img{
+  width: 80%;
+}
+.about-body p{
+  padding:0px 20px;
+  text-align: left;
+  font-family: 微软雅黑; 
+  font-size:20px;
+  // height:30px;
+  line-height: 30px;
+  color: rgb(38, 156, 82);
+}
+.about-more{
+  background: url('../images/more.png') no-repeat;
+  float: right;
+  width: 80px;
+  height: 22px;
+  color:#fff;
+  margin-top:10px;
+}
+/*为什么选择羊奶*/
+.why{
+  background-color: #fff;
+  margin-top:50px;
+}
+.why .why-title{
+  padding-top: 50px;
+}
+.why .why-title h2{
+  color:#737373;
+  font-size:30px;
+  line-height: 29px;
+}
+.why-body{
+ width: 100%;
+ height: 440px;
+  background: url('../images/why.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.why-body ul{
+  position: absolute;
+  top:150px;
+  list-style: disc;
+  right: 50px;
+}
+.why-body ul li{
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  color:#5a5a5a;
+}
+.why-body .why-more{
+  position: absolute;
+  right: 37px;
+  top: 350px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #3A986B;
+  color:#3A986B;
+  border-radius:5px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+.why .why-bot{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  z-index: 1;
+  background: url('../images/yang.png') no-repeat;
+  background-size: 200px 150px;
+  bottom:40px;
+}
+/*服务开始*/
+.server{
+  background-color: #fff;
+  padding-top:30px;
+  height: 190px;
+}
+.server-in{
+  margin-top:30px;
+  border-top: 1px dashed #ccc;
+}
+.server .server-left{
+  text-align: center;
+  float: left;
+  width: 30%;
+}
+.server .server-right img{
+  
+}
+.server .server-right{
+  float: left;
+  margin-left:15%;
+}
+.server .server-right p{
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+}

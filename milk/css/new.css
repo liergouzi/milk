@@ -1,0 +1,14 @@
+.news {
+  background-color: #fff;
+  padding-top: 20px;
+}
+.news .news-body img{
+  width: 100%;
+}
+.news .news-body .news-in img{
+  float: left;
+  width: 30%;
+}
+.news .news-body .news-in p{
+  text-indent: 20px;
+}
